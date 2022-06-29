@@ -1,0 +1,29 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 280px;
+    right: 0;
+    height: 40px;
+    // width: calc(100% -250px);
+    background-color: $bg-primary;
+    padding: 0 15px;
+    ul{
+        display: flex;
+        line-height: 40px;
+        justify-content: space-between;
+        .nav__hide__show--btn{
+            color: $text-white;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        li{
+            a{
+                color: $text-white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.header.deactive__nav{
+    left: 60px;
+}

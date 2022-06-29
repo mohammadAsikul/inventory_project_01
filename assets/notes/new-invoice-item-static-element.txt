@@ -1,0 +1,18 @@
+<tr id="rec-1">
+                                    <td class="sn">1</td>
+                                    <td>
+                                        <select name="itemSelectBox" id="itemSelectBox">
+                                            <option value="" disabled selected>select your item</option>
+                                        </select>
+                                    </td>
+                                    <td class="stock">0</td>
+                                    <td><input type="text" name="itemWarranty[]" id="itemWarranty" placeholder="Warranty" value=""></td>
+                                    <td><input type="number" name="itemRate[]" id="itemRate" placeholder="Rate" value=""></td>
+                                    <td><input type="number" name="itemQty[]" id="itemQty" placeholder="Quantity" value=""></td>
+                                    <td><input type="number" name="itemDiscount[]" id="itemDiscount" placeholder="Discount" value=""></td>
+                                    <td>100</td>
+                                    <td>
+                                        <!-- <button id="itemDeleteBtn" class="inv__item__delete--btn btn"><i class="fa-solid fa-trash"></i></button> -->
+                                        <a href="#" id="itemDeleteBtn" class="inv__item__delete--btn btn" data-id="0"><i class="fa-solid fa-trash"></i></a>
+                                    </td>
+                                </tr>
